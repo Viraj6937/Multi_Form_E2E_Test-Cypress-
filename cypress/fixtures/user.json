@@ -1,0 +1,45 @@
+{
+    "url":{
+        "site_url_1":"https://www.globalsqa.com/angularJs-protractor/Multiform/#/form/profile"
+    },
+
+    "common_element":{
+    "tabs":"div.container > div > div > div > div#form-container > div > div#status-buttons > a"
+    },
+
+    "common_data":{
+        "profile":"PROFILE",
+        "interest":"Interests",
+        "payment":"Payment"
+    },
+    "profile_element":{
+       "profile_name_field":"div.container > div > div > div > div#form-container > form > div > div > input[name='name']",
+       "profile_email_field":"div.container > div > div > div > div#form-container > form > div > div > input[name='email']",
+       "profile_next_section_button":"div.container > div > div > div > div#form-container > form > div > div > div > a"
+    },
+
+    "profile_data":{
+        "meta_charset":"charset",
+        "meta_utf_8":"utf-8",
+        "name":"Test",
+        "email":"test@gmail.com"
+    },
+
+    "interest_element":{
+       "i_like_radio_options":"div.container > div > div > div > div#form-container > form > div > div > div.radio > label",
+       "profile_next_section_button":"div.container > div > div > div > div#form-container > form > div > div > div > a"
+    },
+
+    "interest_data":{
+
+    },
+
+    "payment_element":{
+       "payment_feedback":"div.container > div > div > div > div#form-container > form > div > div > h3",
+       "payment_submit":"div.container > div > div > div > div#form-container > form > div > div > button[type='submit']"
+    },
+
+    "payment_data":{
+        "thankyou_payment_label":"Thanks For Your Money!"
+    }
+}

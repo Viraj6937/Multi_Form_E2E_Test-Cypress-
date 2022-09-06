@@ -1,0 +1,14 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "Viraj Utekar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
